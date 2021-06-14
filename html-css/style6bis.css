@@ -1,0 +1,105 @@
+.mainContainer{
+    display: flex;
+    display: wrap;
+}
+d
+.green{
+    background-color: green;
+    height:50px;
+    width:70%;
+}
+.blue{
+    background-color: blue;
+    height:50px;
+    width:30%;
+    display: flex;
+}
+.red{
+    background-color: red;
+    height:150px;
+    width:34%;
+}
+.multi{
+    background-color: grey;
+    height:150px;
+    display: flex;
+}
+.blueMarine{
+    background-color:midnightblue;
+    height:200px;
+}
+.orange{
+    background-color:orange ;
+    height:75px;
+}
+.grey{
+    background-color: ;
+}
+* Conteneur principal définissant le comportement de ses enfants */
+.mainContainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Définition de toutes les propriétés css des enfants */
+.green{
+    background-color: green;
+    height: 50px;
+    width: 70%;
+}
+.blue{
+    background-color:blue;
+    height: 50px;
+    width: 30%;
+}
+.red{
+    background-color:red;
+    height: 150px;
+    width: 34%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* SousConteneur permettant de positionner correctement ses blocs enfants */
+.multi{
+    height: 150px;
+    width: 66%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.blueMarine{
+    background-color: midnightblue;
+    height: 200px;
+    width: 100%;
+}
+
+.orange{
+    background-color: orange;
+    height: 75px;
+    width: 50%;
+}
+
+.grey{
+    background-color: grey;
+    height: 75px;
+    width: 50%;
+}
+
+.yellow{
+    background-color: yellow;
+    height: 75px;
+    width: 34%;
+}
+
+.cyan{
+    background-color: cyan;
+    height: 75px;
+    width: 33%;
+}
+
+.redOrange{
+    background-color: orangered;
+    height: 75px;
+    width: 33%;
+}
